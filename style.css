@@ -154,6 +154,8 @@ section{
     background-attachment: fixed;
     z-index: -1;
 }
+
+/* SEKTION 3 */
 .section_3{
     padding: 60px;
     text-align: left;
@@ -178,16 +180,13 @@ section{
     display: flex;
     width: 100%;
 }
-#js-bar{
-    width: 91%;
-    text-align: left;
-}
-.js-bar-text{
-    padding-left: 45px;
-    width: 9%;
-}
 .js-bar-headline{
     font-weight: bold;
+}
+/* JS BAR LEFT */
+.js-bar-left{
+    padding-left: 45px;
+    width: 9%;
 }
 .java{
     padding-top: 47px;
@@ -209,6 +208,11 @@ section{
 }
 .github{
     padding-top: 9px;
+}
+/* JS BAR RIGHT */
+#js-bar-right{
+    width: 91%;
+    text-align: left;
 }
 #myProgress{
     width: 100%;
@@ -257,6 +261,8 @@ section{
     background-color: rgb(94, 112, 99);
     border-radius: 5px;
 }
+
+/* SEKTION 4 */
 .section_4{
     padding: 60px;
     text-align: left;
