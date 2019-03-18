@@ -1,3 +1,4 @@
+/* Ändra css för navbaren när den går över 470 px från toppen */
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
