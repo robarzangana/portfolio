@@ -46,20 +46,23 @@ $(document).ready(function () {
 let i = 0; /* Global variable "i" */
 $(document).ready(function () {
     $("#link_section_3").click(function () {
-        $("#section_3_inner").slideDown(2000);
-        i++; //När man klickar på länken till sektion 3 så kommer i att ökas med 1
-        if(i == 1) // Och när i ökas med 1 kommer progressBar funtionen att köras då den körs ÄNDAST när i = 1 och inte fler gånger
-            progressBar();
+        $("#section_3_inner").slideDown("slow", function () {
+            i++;
+            if (i == 1)
+                progressBar();
+        });
     });
 });
 $(document).ready(function () {
     $("#section_3").click(function () {
-        $("#section_3_inner").slideDown("slow");
-        i++;
-        if(i == 1)
-            progressBar();
+        $("#section_3_inner").slideDown("slow", function () {
+            i++;
+            if (i == 1)
+                progressBar();
+        });
     });
 });
+
 
 /*---------------- Section 4 ----------------*/
 $(document).ready(function () {
